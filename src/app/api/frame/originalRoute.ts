@@ -33,27 +33,9 @@ export async function POST(req: NextRequest, res: NextResponse) {
   const buttonId = validatedMessage?.data?.frameActionBody?.buttonIndex || 0;
   const fid = validatedMessage?.data?.fid || 0;
 
-  let NEW_IMAGE_URLimage = '';
+  console.log(`Pressed button ${buttonId} with fid ${fid}`);
 
-  // Determine the image based on the buttonId
-  switch (buttonId) {
-    case 1:
-      NEW_IMAGE_URLimage = 'https://frames-yeet.vercel.app/diarrhea.png';
-      break;
-    case 2:
-      NEW_IMAGE_URLimage = 'https://frames-yeet.vercel.app/jaundice.png';
-      break;
-    case 3:
-      NEW_IMAGE_URLimage = 'https://frames-yeet.vercel.app/banality.png';
-      break;
-    case 4:
-      NEW_IMAGE_URLimage = 'https://frames-yeet.vercel.app/death.png';
-      break;
-
-    default:
-      NEW_IMAGE_URLimage = 'https://frames-yeet.vercel.app/default-image.jpeg';
-      break;
-  }
+  const NEW_IMAGE_URLimage = 'https://frames-yeet.vercel.app/yeet-baby.jpeg';
 
   let html =
     `<!DOCTYPE html><html><head>` +
