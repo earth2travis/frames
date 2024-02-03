@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 
 const POST_URL = 'https://frames-yeet.vercel.app/api/frame';
-const IMG_URL = 'https://frames-yeet.vercel.app/yeet-baby.jpeg';
+const IMG_URL = 'https://frames-yeet.vercel.app/diarrhea.png';
 
 console.log('posturl', POST_URL);
 const frameMetadata = {
