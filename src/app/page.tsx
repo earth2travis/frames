@@ -1,14 +1,15 @@
 import { Metadata } from 'next';
 
 const POST_URL = 'https://frame-airdrop.vercel.app/api/frame';
-const IMG_URL = 'https://blocklive.io/util/logo.png';
+const IMG_URL =
+  'https://i.kym-cdn.com/entries/icons/original/000/031/544/cover13.jpg';
 
 console.log('posturl', POST_URL);
 const frameMetadata = {
   'fc:frame': 'vNext',
   'fc:frame:image': IMG_URL,
-  'fc:frame:button:1': '$ETH',
-  'fc:frame:button:2': '$BTC',
+  'fc:frame:button:1': 'YEET',
+  'fc:frame:button:2': 'YEET',
   'fc:frame:post_url': POST_URL,
 };
 
