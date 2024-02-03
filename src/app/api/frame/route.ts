@@ -41,8 +41,10 @@ export async function POST(req: NextRequest, res: NextResponse) {
     `<!DOCTYPE html><html><head>` +
     `<meta property="fc:frame" content="vNext" />` +
     `<meta property="fc:frame:image" content="${NEW_IMAGE_URLimage}" />` +
-    `<meta property="fc:frame:button:1" content="$DOGE" />` +
-    `<meta property="fc:frame:button:2" content="$SOL" />` +
+    `<meta property="fc:frame:button:1" content="YEET" />` +
+    `<meta property="fc:frame:button:2" content="YEET" />` +
+    `<meta property="fc:frame:button:3" content="YEET" />` +
+    `<meta property="fc:frame:button:4" content="YEET" />` +
     `<meta property="fc:frame:post_url" content="${POST_URL}" />` +
     `</head></html>`;
 
